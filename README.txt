@@ -1,6 +1,5 @@
-noiseInject.py generates the noisy datasets
+tagRemoval.py removed the hashtags from the data
 
-main.py runs the SVM testing
-*lines 35-37 control the file input paths (to change from noisy data to noiseless data)
-*line 18 controls the n-gram length
-*line 107 controls the train/test split in terms of training data
+main_avg.py runs the SVM testing
+*lines 35-38 control the file input paths
+*line 105 controls the train/test split in terms of training data
